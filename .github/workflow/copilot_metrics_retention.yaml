@@ -1,16 +1,7 @@
     name: Copilot Metrics Retention
 
     on:
-     workflow_dispatch:
-      inputs:
-          org_name: 
-            description: 'Organization name'
-            required: true
-            default: 'hivemq'
-          json_path:
-            description: 'JSON File path'
-            required: true
-            default: 'metrics.json'
+      push:
          
     jobs:
      first-job:
@@ -24,8 +15,8 @@
         uses: ambilykk/copilot-metrics-retention@main
         with:        
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
-          org_name: ${{ inputs.org_name }} 
-          json_path: ${{ inputs.json_path }} 
+          org_name: 'hivemq'
+          json_path: 'metrics.json'
     
       - name: Commit and push if it changed
         run: |
