@@ -5,24 +5,24 @@
          
     jobs:
      first-job:
-     runs-on: ubuntu-latest
-    
-     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      runs-on: ubuntu-latest
+      
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
 
-      - name: Copilot Metrics Retention 
-        uses: ambilykk/copilot-metrics-retention@main
-        with:        
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
-          org_name: 'hivemq'
-          json_path: 'metrics.json'
-    
-      - name: Commit and push if it changed
-        run: |
-            git config --global user.name 'Copilot Metrics Retention'
-            git config --global user.email 'action@github.com'
-            git add -A
-            git diff --quiet && git diff --staged --quiet || git commit -m "Copilot Metrics data update"
-            git push
+        - name: Copilot Metrics Retention 
+          uses: ambilykk/copilot-metrics-retention@main
+          with:        
+            GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+            org_name: 'hivemq'
+            json_path: 'metrics.json'
+      
+        - name: Commit and push if it changed
+          run: |
+              git config --global user.name 'Copilot Metrics Retention'
+              git config --global user.email 'action@github.com'
+              git add -A
+              git diff --quiet && git diff --staged --quiet || git commit -m "Copilot Metrics data update"
+              git push
      
