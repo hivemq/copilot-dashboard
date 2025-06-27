@@ -5,8 +5,8 @@ from pathlib import Path
 
 app = Flask(__name__)
 UPLOAD_FOLDER = Path("uploads")
-DB_PATH = Path("copilot_metrics.db")
 UPLOAD_FOLDER.mkdir(exist_ok=True)
+DB_PATH = UPLOAD_FOLDER / "copilot_metrics.db"
 
 def create_db(json_data):
     conn = sqlite3.connect(DB_PATH)

@@ -1,0 +1,25 @@
+    name: Copilot Metrics Retention
+
+    on:
+      push:
+         
+    jobs:
+     first-job:
+      runs-on: ubuntu-latest
+      
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+
+        - name: Copilot Metrics Retention 
+          uses: ambilykk/copilot-metrics-retention@main
+          with:        
+            GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+            org_name: 'hivemq'
+            json_path: 'metrics.json'
+      
+        - uses: actions/upload-artifact@v4
+          with:
+            name: metrics.json
+            path: 'metrics.json'
+     
