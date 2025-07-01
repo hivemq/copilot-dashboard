@@ -3,6 +3,12 @@
     on:
       push:
 
+    permissions:
+      contents: write
+      id-token: write
+      pull-requests: write
+      actions: write
+
     jobs:
      first-job:
       runs-on: ubuntu-latest
