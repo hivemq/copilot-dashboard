@@ -2,7 +2,9 @@
 
     on:
       push:
-
+      schedule:
+        - cron: '0 0 * * 0'
+        # This cron expression runs the workflow every Sunday at midnight UTC
     permissions:
       contents: write
       id-token: write
