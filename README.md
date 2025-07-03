@@ -7,7 +7,8 @@ GitHub only offers a 28-day retention period for Copilot metrics. This solution 
 A GitHub Action retrieves the JSON metrics and renders them into a single JSON file. [Ref](*https://github.com/marketplace/actions/copilot-metrics-retention)
 
 ## Convert the json into SQlite dbfile
-Open the terminal into the repo folder and run `python3 app.py`, visit the page `http://127.0.0.1:5000/`, download the json artifact and load the file, click on `Convert & Download SQLite DB`, this will generate a .db file available under the upload folder having the name `copilot_metrics.db`
+Open the terminal into the repo folder and run `python3 app.py`, visit the page `http://127.0.0.1:5000/`.
+Load the `metrics.json`, click on `Convert & Download SQLite DB`, this will generate a .db file available under the upload folder having the name `copilot_metrics.db`
 
 ## Visualite the copilot_metrics.db via metabase
 

@@ -2,24 +2,48 @@
 
     on:
       push:
-         
+      schedule:
+        - cron: '0 0 * * 0'
+        # This cron expression runs the workflow every Sunday at midnight UTC
+    permissions:
+      contents: write
+      id-token: write
+      pull-requests: write
+      actions: write
+
     jobs:
      first-job:
       runs-on: ubuntu-latest
-      
+
       steps:
         - name: Checkout
           uses: actions/checkout@v4
 
-        - name: Copilot Metrics Retention 
-          uses: ambilykk/copilot-metrics-retention@main
-          with:        
+        - name: Copilot Metrics Retention
+          uses: ambilykk/copilot-metrics-retention@5b9ef15ce66fc883afb3b6127f960e44d5233a50
+          with:
             GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
             org_name: 'hivemq'
-            json_path: 'metrics.json'
-      
+            json_path: 'metrics_hivemq.json'
+
+        - name: Copilot Metrics Retention
+          uses: ambilykk/copilot-metrics-retention@5b9ef15ce66fc883afb3b6127f960e44d5233a50
+          with:
+            GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+            org_name: 'hivemq-cloud'
+            json_path: 'metrics_hivemq-cloud.json'
+
         - uses: actions/upload-artifact@v4
           with:
             name: metrics.json
-            path: 'metrics.json'
-     
+            path: |
+              metrics_hivemq.json
+              metrics_hivemq-cloud.json
+
+        - name: Commit and push if it changed
+          run: |
+            git config user.name 'Copilot Metrics Retention'
+            git config user.email 'action@github.com'
+            git add metrics_hivemq.json metrics_hivemq-cloud.json
+            git commit -m "Copilot Metrics data update" || exit 0
+            git push
