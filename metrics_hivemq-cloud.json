@@ -28977,5 +28977,1194 @@
       ],
       "total_engaged_users": 6
     }
+  },
+  {
+    "date": "2025-10-04",
+    "copilot_ide_chat": {
+      "editors": [
+        {
+          "name": "JetBrains",
+          "models": [
+            {
+              "name": "default",
+              "total_chats": 5,
+              "is_custom_model": false,
+              "total_engaged_users": 1,
+              "total_chat_copy_events": 1,
+              "total_chat_insertion_events": 1
+            }
+          ],
+          "total_engaged_users": 1
+        }
+      ],
+      "total_engaged_users": 1
+    },
+    "total_active_users": 4,
+    "copilot_dotcom_chat": {
+      "models": [
+        {
+          "name": "default",
+          "total_chats": 2,
+          "is_custom_model": false,
+          "total_engaged_users": 1
+        }
+      ],
+      "total_engaged_users": 1
+    },
+    "total_engaged_users": 3,
+    "copilot_dotcom_pull_requests": {
+      "total_engaged_users": 0
+    },
+    "copilot_ide_code_completions": {
+      "editors": [
+        {
+          "name": "JetBrains",
+          "models": [
+            {
+              "name": "default",
+              "languages": [
+                {
+                  "name": "typescript",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 5,
+                  "total_code_suggestions": 41,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 44
+                },
+                {
+                  "name": "json",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 7,
+                  "total_code_suggestions": 49,
+                  "total_code_lines_accepted": 13,
+                  "total_code_lines_suggested": 83
+                },
+                {
+                  "name": "typescriptreact",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 6,
+                  "total_code_suggestions": 81,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 84
+                },
+                {
+                  "name": "java",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 2,
+                  "total_code_suggestions": 8,
+                  "total_code_lines_accepted": 2,
+                  "total_code_lines_suggested": 14
+                }
+              ],
+              "is_custom_model": false,
+              "total_engaged_users": 2
+            }
+          ],
+          "total_engaged_users": 2
+        },
+        {
+          "name": "vscode",
+          "models": [
+            {
+              "name": "default",
+              "languages": [
+                {
+                  "name": "yaml",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 5,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 5
+                },
+                {
+                  "name": "restructuredtext",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 2,
+                  "total_code_suggestions": 6,
+                  "total_code_lines_accepted": 2,
+                  "total_code_lines_suggested": 6
+                },
+                {
+                  "name": "typescriptreact",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 1
+                }
+              ],
+              "is_custom_model": false,
+              "total_engaged_users": 1
+            }
+          ],
+          "total_engaged_users": 1
+        }
+      ],
+      "languages": [
+        {
+          "name": "typescriptreact",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "typescript",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "yaml",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "restructuredtext",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "json",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "java",
+          "total_engaged_users": 1
+        }
+      ],
+      "total_engaged_users": 3
+    }
+  },
+  {
+    "date": "2025-10-05",
+    "copilot_ide_chat": {
+      "editors": [
+        {
+          "name": "JetBrains",
+          "models": [
+            {
+              "name": "default",
+              "total_chats": 3,
+              "is_custom_model": false,
+              "total_engaged_users": 1,
+              "total_chat_copy_events": 2,
+              "total_chat_insertion_events": 2
+            }
+          ],
+          "total_engaged_users": 1
+        }
+      ],
+      "total_engaged_users": 1
+    },
+    "total_active_users": 3,
+    "copilot_dotcom_chat": {
+      "total_engaged_users": 0
+    },
+    "total_engaged_users": 2,
+    "copilot_dotcom_pull_requests": {
+      "total_engaged_users": 0
+    },
+    "copilot_ide_code_completions": {
+      "editors": [
+        {
+          "name": "JetBrains",
+          "models": [
+            {
+              "name": "default",
+              "languages": [
+                {
+                  "name": "typescriptreact",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 10,
+                  "total_code_suggestions": 71,
+                  "total_code_lines_accepted": 4,
+                  "total_code_lines_suggested": 77
+                },
+                {
+                  "name": "yaml",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 6,
+                  "total_code_suggestions": 32,
+                  "total_code_lines_accepted": 2,
+                  "total_code_lines_suggested": 36
+                },
+                {
+                  "name": "java",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 6,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 6
+                },
+                {
+                  "name": "json",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 1
+                }
+              ],
+              "is_custom_model": false,
+              "total_engaged_users": 2
+            }
+          ],
+          "total_engaged_users": 2
+        },
+        {
+          "name": "vscode",
+          "models": [
+            {
+              "name": "default",
+              "languages": [
+                {
+                  "name": "dotenv",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 1
+                }
+              ],
+              "is_custom_model": false
+            }
+          ],
+          "total_engaged_users": 0
+        }
+      ],
+      "languages": [
+        {
+          "name": "typescriptreact",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "json",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "yaml",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "java",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "dotenv",
+          "total_engaged_users": 0
+        }
+      ],
+      "total_engaged_users": 2
+    }
+  },
+  {
+    "date": "2025-10-06",
+    "copilot_ide_chat": {
+      "editors": [
+        {
+          "name": "JetBrains",
+          "models": [
+            {
+              "name": "default",
+              "total_chats": 1,
+              "is_custom_model": false,
+              "total_engaged_users": 2,
+              "total_chat_copy_events": 1,
+              "total_chat_insertion_events": 0
+            }
+          ],
+          "total_engaged_users": 2
+        }
+      ],
+      "total_engaged_users": 2
+    },
+    "total_active_users": 3,
+    "copilot_dotcom_chat": {
+      "total_engaged_users": 0
+    },
+    "total_engaged_users": 3,
+    "copilot_dotcom_pull_requests": {
+      "total_engaged_users": 0
+    },
+    "copilot_ide_code_completions": {
+      "editors": [
+        {
+          "name": "JetBrains",
+          "models": [
+            {
+              "name": "default",
+              "languages": [
+                {
+                  "name": "typescriptreact",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 3,
+                  "total_code_suggestions": 28,
+                  "total_code_lines_accepted": 2,
+                  "total_code_lines_suggested": 29
+                },
+                {
+                  "name": "typescript",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 1
+                },
+                {
+                  "name": "terraform",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 3
+                }
+              ],
+              "is_custom_model": false,
+              "total_engaged_users": 1
+            }
+          ],
+          "total_engaged_users": 1
+        },
+        {
+          "name": "vscode",
+          "models": [
+            {
+              "name": "default",
+              "languages": [
+                {
+                  "name": "typescript",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 4,
+                  "total_code_suggestions": 8,
+                  "total_code_lines_accepted": 3,
+                  "total_code_lines_suggested": 8
+                }
+              ],
+              "is_custom_model": false,
+              "total_engaged_users": 1
+            }
+          ],
+          "total_engaged_users": 1
+        }
+      ],
+      "languages": [
+        {
+          "name": "typescriptreact",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "typescript",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "terraform",
+          "total_engaged_users": 0
+        }
+      ],
+      "total_engaged_users": 2
+    }
+  },
+  {
+    "date": "2025-10-07",
+    "copilot_ide_chat": {
+      "editors": [
+        {
+          "name": "vscode",
+          "models": [
+            {
+              "name": "default",
+              "total_chats": 48,
+              "is_custom_model": false,
+              "total_engaged_users": 3,
+              "total_chat_copy_events": 0,
+              "total_chat_insertion_events": 0
+            }
+          ],
+          "total_engaged_users": 3
+        },
+        {
+          "name": "JetBrains",
+          "models": [
+            {
+              "name": "default",
+              "total_chats": 14,
+              "is_custom_model": false,
+              "total_engaged_users": 3,
+              "total_chat_copy_events": 8,
+              "total_chat_insertion_events": 5
+            }
+          ],
+          "total_engaged_users": 3
+        }
+      ],
+      "total_engaged_users": 6
+    },
+    "total_active_users": 17,
+    "copilot_dotcom_chat": {
+      "models": [
+        {
+          "name": "default",
+          "total_chats": 4,
+          "is_custom_model": false,
+          "total_engaged_users": 1
+        }
+      ],
+      "total_engaged_users": 1
+    },
+    "total_engaged_users": 8,
+    "copilot_dotcom_pull_requests": {
+      "total_engaged_users": 0
+    },
+    "copilot_ide_code_completions": {
+      "editors": [
+        {
+          "name": "JetBrains",
+          "models": [
+            {
+              "name": "default",
+              "languages": [
+                {
+                  "name": "kotlin",
+                  "total_engaged_users": 2,
+                  "total_code_acceptances": 11,
+                  "total_code_suggestions": 52,
+                  "total_code_lines_accepted": 3,
+                  "total_code_lines_suggested": 55
+                },
+                {
+                  "name": "asciidoc",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 3,
+                  "total_code_suggestions": 35,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 39
+                },
+                {
+                  "name": "java",
+                  "total_engaged_users": 3,
+                  "total_code_acceptances": 6,
+                  "total_code_suggestions": 35,
+                  "total_code_lines_accepted": 4,
+                  "total_code_lines_suggested": 52
+                },
+                {
+                  "name": "typescriptreact",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 2,
+                  "total_code_suggestions": 33,
+                  "total_code_lines_accepted": 2,
+                  "total_code_lines_suggested": 36
+                },
+                {
+                  "name": "sql",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 8,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 8
+                },
+                {
+                  "name": "terraform",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 9,
+                  "total_code_lines_accepted": 4,
+                  "total_code_lines_suggested": 48
+                },
+                {
+                  "name": "xml",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 2
+                },
+                {
+                  "name": "markdown",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 4,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 4
+                },
+                {
+                  "name": "yaml",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 31
+                },
+                {
+                  "name": "gitignore",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 3,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 3
+                }
+              ],
+              "is_custom_model": false,
+              "total_engaged_users": 5
+            }
+          ],
+          "total_engaged_users": 5
+        },
+        {
+          "name": "vscode",
+          "models": [
+            {
+              "name": "default",
+              "languages": [
+                {
+                  "name": "typescriptreact",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 25,
+                  "total_code_suggestions": 88,
+                  "total_code_lines_accepted": 26,
+                  "total_code_lines_suggested": 94
+                },
+                {
+                  "name": "ignore",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 1
+                },
+                {
+                  "name": "dotenv",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 10,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 10
+                },
+                {
+                  "name": "typescript",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 2,
+                  "total_code_suggestions": 5,
+                  "total_code_lines_accepted": 2,
+                  "total_code_lines_suggested": 5
+                },
+                {
+                  "name": "json",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 13,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 37
+                },
+                {
+                  "name": "cpp",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 1
+                },
+                {
+                  "name": "terraform",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 2,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 2
+                },
+                {
+                  "name": "gitignore",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 2,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 2
+                }
+              ],
+              "is_custom_model": false,
+              "total_engaged_users": 3
+            }
+          ],
+          "total_engaged_users": 3
+        }
+      ],
+      "languages": [
+        {
+          "name": "typescriptreact",
+          "total_engaged_users": 2
+        },
+        {
+          "name": "sql",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "asciidoc",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "kotlin",
+          "total_engaged_users": 2
+        },
+        {
+          "name": "cpp",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "json",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "java",
+          "total_engaged_users": 3
+        },
+        {
+          "name": "terraform",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "typescript",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "gitignore",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "markdown",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "dotenv",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "xml",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "yaml",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "ignore",
+          "total_engaged_users": 1
+        }
+      ],
+      "total_engaged_users": 8
+    }
+  },
+  {
+    "date": "2025-10-08",
+    "copilot_ide_chat": {
+      "editors": [
+        {
+          "name": "vscode",
+          "models": [
+            {
+              "name": "default",
+              "total_chats": 77,
+              "is_custom_model": false,
+              "total_engaged_users": 4,
+              "total_chat_copy_events": 1,
+              "total_chat_insertion_events": 0
+            }
+          ],
+          "total_engaged_users": 4
+        },
+        {
+          "name": "JetBrains",
+          "models": [
+            {
+              "name": "default",
+              "total_chats": 7,
+              "is_custom_model": false,
+              "total_engaged_users": 4,
+              "total_chat_copy_events": 4,
+              "total_chat_insertion_events": 1
+            }
+          ],
+          "total_engaged_users": 4
+        }
+      ],
+      "total_engaged_users": 8
+    },
+    "total_active_users": 18,
+    "copilot_dotcom_chat": {
+      "models": [
+        {
+          "name": "default",
+          "total_chats": 4,
+          "is_custom_model": false,
+          "total_engaged_users": 1
+        }
+      ],
+      "total_engaged_users": 1
+    },
+    "total_engaged_users": 15,
+    "copilot_dotcom_pull_requests": {
+      "total_engaged_users": 0
+    },
+    "copilot_ide_code_completions": {
+      "editors": [
+        {
+          "name": "vscode",
+          "models": [
+            {
+              "name": "default",
+              "languages": [
+                {
+                  "name": "typescriptreact",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 147,
+                  "total_code_suggestions": 372,
+                  "total_code_lines_accepted": 150,
+                  "total_code_lines_suggested": 409
+                },
+                {
+                  "name": "typescript",
+                  "total_engaged_users": 2,
+                  "total_code_acceptances": 18,
+                  "total_code_suggestions": 50,
+                  "total_code_lines_accepted": 13,
+                  "total_code_lines_suggested": 50
+                },
+                {
+                  "name": "json",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 2,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 2
+                },
+                {
+                  "name": "shellscript",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 4,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 4
+                },
+                {
+                  "name": "xml",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 2,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 5
+                },
+                {
+                  "name": "gitignore",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 5,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 5
+                }
+              ],
+              "is_custom_model": false,
+              "total_engaged_users": 3
+            }
+          ],
+          "total_engaged_users": 3
+        },
+        {
+          "name": "JetBrains",
+          "models": [
+            {
+              "name": "default",
+              "languages": [
+                {
+                  "name": "kotlin",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 4,
+                  "total_code_suggestions": 32,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 47
+                },
+                {
+                  "name": "sql",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 13,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 13
+                },
+                {
+                  "name": "java",
+                  "total_engaged_users": 7,
+                  "total_code_acceptances": 22,
+                  "total_code_suggestions": 175,
+                  "total_code_lines_accepted": 38,
+                  "total_code_lines_suggested": 320
+                },
+                {
+                  "name": "html",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 13,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 13
+                },
+                {
+                  "name": "typescriptreact",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 16,
+                  "total_code_lines_accepted": 3,
+                  "total_code_lines_suggested": 17
+                },
+                {
+                  "name": "asciidoc",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 4,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 4
+                },
+                {
+                  "name": "toml",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 3,
+                  "total_code_suggestions": 6,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 7
+                },
+                {
+                  "name": "shellscript",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 3,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 3
+                },
+                {
+                  "name": "javascript",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 3,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 3
+                },
+                {
+                  "name": "text",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 2,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 2
+                },
+                {
+                  "name": "json",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 1
+                }
+              ],
+              "is_custom_model": false,
+              "total_engaged_users": 8
+            }
+          ],
+          "total_engaged_users": 8
+        }
+      ],
+      "languages": [
+        {
+          "name": "typescriptreact",
+          "total_engaged_users": 2
+        },
+        {
+          "name": "java",
+          "total_engaged_users": 7
+        },
+        {
+          "name": "gitignore",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "typescript",
+          "total_engaged_users": 2
+        },
+        {
+          "name": "javascript",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "kotlin",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "sql",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "shellscript",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "asciidoc",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "html",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "toml",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "json",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "text",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "xml",
+          "total_engaged_users": 0
+        }
+      ],
+      "total_engaged_users": 10
+    }
+  },
+  {
+    "date": "2025-10-09",
+    "copilot_ide_chat": {
+      "editors": [
+        {
+          "name": "vscode",
+          "models": [
+            {
+              "name": "default",
+              "total_chats": 38,
+              "is_custom_model": false,
+              "total_engaged_users": 1,
+              "total_chat_copy_events": 0,
+              "total_chat_insertion_events": 0
+            }
+          ],
+          "total_engaged_users": 1
+        },
+        {
+          "name": "JetBrains",
+          "models": [
+            {
+              "name": "default",
+              "total_chats": 8,
+              "is_custom_model": false,
+              "total_engaged_users": 3,
+              "total_chat_copy_events": 3,
+              "total_chat_insertion_events": 3
+            }
+          ],
+          "total_engaged_users": 3
+        }
+      ],
+      "total_engaged_users": 4
+    },
+    "total_active_users": 9,
+    "copilot_dotcom_chat": {
+      "total_engaged_users": 0
+    },
+    "total_engaged_users": 5,
+    "copilot_dotcom_pull_requests": {
+      "total_engaged_users": 0
+    },
+    "copilot_ide_code_completions": {
+      "editors": [
+        {
+          "name": "vscode",
+          "models": [
+            {
+              "name": "default",
+              "languages": [
+                {
+                  "name": "typescriptreact",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 29,
+                  "total_code_suggestions": 68,
+                  "total_code_lines_accepted": 37,
+                  "total_code_lines_suggested": 86
+                }
+              ],
+              "is_custom_model": false,
+              "total_engaged_users": 1
+            }
+          ],
+          "total_engaged_users": 1
+        },
+        {
+          "name": "JetBrains",
+          "models": [
+            {
+              "name": "default",
+              "languages": [
+                {
+                  "name": "typescriptreact",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 22,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 22
+                },
+                {
+                  "name": "java",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 3,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 3
+                },
+                {
+                  "name": "json",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 1,
+                  "total_code_suggestions": 3,
+                  "total_code_lines_accepted": 1,
+                  "total_code_lines_suggested": 3
+                },
+                {
+                  "name": "html",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 3,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 3
+                },
+                {
+                  "name": "gitignore",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 8,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 8
+                },
+                {
+                  "name": "typescript",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 1,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 1
+                }
+              ],
+              "is_custom_model": false,
+              "total_engaged_users": 1
+            }
+          ],
+          "total_engaged_users": 1
+        }
+      ],
+      "languages": [
+        {
+          "name": "typescriptreact",
+          "total_engaged_users": 2
+        },
+        {
+          "name": "json",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "gitignore",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "java",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "html",
+          "total_engaged_users": 0
+        },
+        {
+          "name": "typescript",
+          "total_engaged_users": 0
+        }
+      ],
+      "total_engaged_users": 2
+    }
+  },
+  {
+    "date": "2025-10-10",
+    "copilot_ide_chat": {
+      "editors": [
+        {
+          "name": "JetBrains",
+          "models": [
+            {
+              "name": "default",
+              "total_chats": 3,
+              "is_custom_model": false,
+              "total_engaged_users": 1,
+              "total_chat_copy_events": 0,
+              "total_chat_insertion_events": 0
+            }
+          ],
+          "total_engaged_users": 1
+        }
+      ],
+      "total_engaged_users": 1
+    },
+    "total_active_users": 4,
+    "copilot_dotcom_chat": {
+      "total_engaged_users": 0
+    },
+    "total_engaged_users": 2,
+    "copilot_dotcom_pull_requests": {
+      "total_engaged_users": 0
+    },
+    "copilot_ide_code_completions": {
+      "editors": [
+        {
+          "name": "vscode",
+          "models": [
+            {
+              "name": "default",
+              "languages": [
+                {
+                  "name": "typescript",
+                  "total_engaged_users": 0,
+                  "total_code_acceptances": 0,
+                  "total_code_suggestions": 12,
+                  "total_code_lines_accepted": 0,
+                  "total_code_lines_suggested": 12
+                }
+              ],
+              "is_custom_model": false
+            }
+          ],
+          "total_engaged_users": 0
+        },
+        {
+          "name": "JetBrains",
+          "models": [
+            {
+              "name": "default",
+              "languages": [
+                {
+                  "name": "terraform",
+                  "total_engaged_users": 1,
+                  "total_code_acceptances": 6,
+                  "total_code_suggestions": 29,
+                  "total_code_lines_accepted": 6,
+                  "total_code_lines_suggested": 45
+                }
+              ],
+              "is_custom_model": false,
+              "total_engaged_users": 1
+            }
+          ],
+          "total_engaged_users": 1
+        }
+      ],
+      "languages": [
+        {
+          "name": "terraform",
+          "total_engaged_users": 1
+        },
+        {
+          "name": "typescript",
+          "total_engaged_users": 0
+        }
+      ],
+      "total_engaged_users": 1
+    }
   }
 ]
